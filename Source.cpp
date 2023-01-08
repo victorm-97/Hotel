@@ -27,7 +27,7 @@ void intro() {
 void head() {
 	system("cls");
 	cout << "\t\t\t\t\t\t";
-	cout << "Please Log in to our system.";
+	cout << "*******HOTELS R US*******";
 	cout << "\t\t\t\t\t\t\t\t";
 }
 void time() {
@@ -60,6 +60,7 @@ void hotel::main_menu() {
 	int choice = 0;
 	while (choice != 5) {
 		system("cls");
+		head();
 		cout << "\n\t\t\t\t*************";
 		cout << "\n\t\t\t\t* MAIN MENU *";
 		cout << "\n\t\t\t\t*************";
@@ -291,6 +292,7 @@ int main() {
 	system("cls");
 	head();
 	char id[6], pass[7];
+	cout << "\n\n\t\tPlease Log in to the system\n\n";
 	cout << "\n\n\n\t\tusername:  ";
 	cin >> id;
 	cout << "\n\t\tpassword:  ";
@@ -303,7 +305,7 @@ int main() {
 	if (strcmp(id, "admin") == 0 && strcmp(pass, "1234") == 0)
 		cout << "\n\n\t\t\t  !!!Login Successfull!!!";
 	else {
-		cout << "\n\n\t!!!INVALID CREDENTIALS!!!";
+		cout << "\n\n\t!!!INVALID CREDENTIALS!!!\n";
 		system("pause");
 		exit(-1);
 	}
