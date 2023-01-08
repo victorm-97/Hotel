@@ -2,7 +2,7 @@
 	Title			: Hotel Management System
 	Language		: C++
 	Author			: Victor Maravilla
-	Date Created	: 06-22-2022
+	Date Created	: 10-22-2022
 	Last Modified	: 01-08-2023
 */
 
