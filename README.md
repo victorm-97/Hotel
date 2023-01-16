@@ -1,4 +1,4 @@
-# Hotel
+# Hotel Rooms
 
 Hotel Managment Program
 
